@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING/DTD BEAN/EN"
+"http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+  	<bean id="helloMessage" class="com.spring.text.HelloWorld"></bean>
+  	<bean id="helloChina" class="com.spring.text.HelloChina"></bean>
+  	<bean id="person" class="com.spring.text.Person" autowire="byName">
+  	
+<!--   		<property name="helloMessage" ref="helloMessage"></property> -->
+    
+  	</bean> 
+</beans>
